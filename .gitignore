@@ -8,3 +8,8 @@ wheels/
 
 # venv
 .venv
+
+# app
+orthanc-db
+orthanc-storage
+minio-storage
