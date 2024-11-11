@@ -1,0 +1,9 @@
+services:
+  fhir-server:
+    image: hapiproject/hapi:latest
+    container_name: hapi-fhir-server
+    ports:
+      - "8080:8080"
+    environment:
+      - HAPI_FHIR_LOGGING_LEVEL=INFO
+    restart: always
